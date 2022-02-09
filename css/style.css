@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    
+    margin-top: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    font-size: 562.5%; /*16px = 100% */
+    font-size: 5.625em;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 250%;
+    font-size: 2.50rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted;
+    color: rgb(26, 24, 24);
+    width: 50px;
+    border-spacing: 20px;  
+    border-bottom: none;
+}
+
+
+body {
+    text-align: center;
+}
+
+span {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+a {
+    color: #11999E;
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 10px 30px 20px;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+/*------------------------------------------class selector------------------------*/
+.bottom-cloud {
+    position: absolute;
+    bottom: 100px;
+    top:400px;
+    right: 1000px
+}
+
+.top-cloud {
+  position: absolute;
+  
+  top:50px;
+  right:350px;
+}
+
+
+.skill-row {
+    margin: auto;   
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.chillies {
+    width: 25%;
+    float: left;
+    margin-right: 40px;
+}
+
+.computer2 {
+    width: 25%;
+    float: right;
+    margin-left: 40px;
+}
+
+.contact-me {
+    line-height: 2;
+    margin-bottom: 40px;
+}
+
+.copy-right {
+    color: #EAF6F6;
+    margin: 40px auto 0px;
+
+}
+
+.profile {
+    margin-bottom: 60px;
+}
+.intro {
+    width:  40%;
+    margin: 10px auto;
+}
+
+.contact-me-para{
+    margin-bottom: 60px;
+}
+
+.topcontainer {
+    background-color: rgb(212, 244, 245);
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin: 50px 0;
+}
+
+/* go to this website and generate button css property: https://css3buttongenerator.com/*/
+.btn {
+    background: #2c9de8;
+    background-image: -webkit-linear-gradient(top, #2c9de8, #07507d);
+    background-image: -moz-linear-gradient(top, #2c9de8, #07507d);
+    background-image: -ms-linear-gradient(top, #2c9de8, #07507d);
+    background-image: -o-linear-gradient(top, #2c9de8, #07507d);
+    background-image: linear-gradient(to bottom, #2c9de8, #07507d);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #81bde3;
+    background-image: -webkit-linear-gradient(top, #81bde3, #1e8269);
+    background-image: -moz-linear-gradient(top, #81bde3, #1e8269);
+    background-image: -ms-linear-gradient(top, #81bde3, #1e8269);
+    background-image: -o-linear-gradient(top, #81bde3, #1e8269);
+    background-image: linear-gradient(to bottom, #81bde3, #1e8269);
+    text-decoration: none;
+  }
+
+.bottom-container {
+    background-color: #66BFBF;
+    height: 150px;
+    margin-top: 0;
+    line-height: 2;
+}
